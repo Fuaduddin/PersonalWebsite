@@ -4,18 +4,22 @@ const aboutdetails=Vue.createApp({
         return{
             aboutitle:"ABOUT",
             aboutshortdesc:"About Me",
-            aboutimage:"src/Images/about.jpg",
+            aboutimage:"src/Images/aboutmev.jpeg",
             aboutdetailstitle:"Hi there, I am Fuad Uddin",
+            aboutshorttitle:"Full Stack Developer & Digital Marketer, Freelancer",
             avoutdescription:[
-                "I am a web developer with 3 years of experience and a degree in Computer Science and Engineering from East West University.At present I am working as Trainee Engineer .NET Developer at PRAN-RFL Group. I have worked as a WordPress Developer (Intern) and as a Software Engineer at Byte Heart, and contractual software engineer in Garbage man for 7 months . where I was consistently recognized for developing innovative solutions for complex software and systems. My responsibilities encompass the full lifecycle development of next-generation software, including requirement gathering, design, coding, testing, documentation, and implementation.",
-                "I focus on developing websites that are both visually appealing and highly functional. My technical expertise includes cross-platform proficiency (Windows and Linux), ASP.NET Core/MVC, Vue.js, JavaScript, HTML, ASP.NET MVC (Version 5.2.9), CSS, jQuery, Ajax, C, Restful API (Basic), Postman, and LINQ. I am also experienced in various scripting and programming languages, including C, C++, SQL, WordPress, Python, and PHP.I enjoy collaborating with other web developers and designers to create websites that align with clients' brand identities and business objectives. I am committed to staying current with industry trends and best practices by attending professional web development courses to continuously improve my skills.",
-                "I have completed my B.Sc. in Computer Science and Engineering (Software and Information Systems) from East West University. I also have done different hands-on projects focusing on Data Analysis, Data Visualization, Data Science, and Graphics Designing. I also have real-life experience using popular programming languages to create and implement software applications. I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me."
+                "I am a Full Stack Web Developer with 4.5 years of experience and a degree in Computer Science and Engineering from East West University. Currently, I work as a Sub Assistant Manager (Full Stack Software Engineer) at PRAN-RFL Group. Previously, I have worked at Garbage Man and Byte Heart, where I was recognized for delivering innovative solutions to complex software challenges.",
+                "In addition, I am a freelancer and entrepreneur, providing digital marketing and web development services through Upwork, Fiverr, and my company, Fusion Edge. My expertise includes social media marketing, social media management, website development, and website maintenance, with a strong focus on delivering high-quality, results-driven solutions.",
+                "I specialize in developing visually appealing and highly functional websites. My technical expertise includes ASP.NET Core/MVC, Vue.js, JavaScript, HTML, CSS, jQuery, Ajax, C, RESTful APIs, LINQ, and cross-platform development on Windows and Linux. I enjoy collaborating with developers and designers to deliver solutions that align with clients’ brand identity and business goals.",
+                "I hold a B.Sc. in Computer Science and Engineering from East West University. I am passionate about continuous learning and actively enhance my skills by exploring new technologies and industry best practices."
             ],
-            // aboutbutton:[
-            //     {title:"Experince",link:"experience.html"},
-            //     {title:"Recent Work",link:"RecentWork.html"},
-            //     {title:"Portfolios",link:"Protfolios.html"},
-            // ]
+            aboutbutton:[
+                {title:"Front-End:",stack:"HTML, CSS, Boothstrap, JavaScript, jQuery,Vue JS"},
+                {title:"Back-End:",stack:"ASP.NET MVC (5.2.9), ASP.NET Core, Vue.js, jQuery, Ajax, ASP.NET Web Form"},
+                {title:"API & Data Handling:",stack:"RESTful APIs (Basic), JSON, LINQ, Postman"},
+                {title:"Digital Marketing:",stack:"SEO (Search Engine Optimization), Social Media Marketing, Social Media Manager"},
+            ],
+            stacktitle: "Full-Stack Development & Digital Marketing Expertise:"
         }
     }
 });

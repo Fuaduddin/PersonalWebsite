@@ -69,28 +69,45 @@
       <!-- Experience Section Start -->
       <section class="mt-4" style="background-color: rgb(249, 250, 251);width: 100%;padding: 4%;" id="experiencedetails">
         <div class="container">
-            <div class="row">
-                <div class="contentheadline mb-3 mt-4">
-                    <span class="badge badge-pill badge-secondary pilltext text-center">{{EXPcapculetitle}}</span>
-                    <h2  class="mt-2">{{EXPShortDesc}}</h2>
-                </div>
-                <div v-if="EXPcarrers.length>0" v-for="carrer in EXPcarrers">
-                    <div class="officecontainer mt-4">
-                        <div>
-                            <img v-bind:src="carrer.companylogo" class="officeicon">
-                        </div>
-                        <div>
-                          <p>
+          <div class="row">
+            <div class="contentheadline mb-3 mt-4">
+                <span class="badge badge-pill badge-secondary pilltext text-center">{{EXPcapculetitle}}</span>
+               <h2  class="mt-2">{{EXPShortDesc}}</h2>
+            </div>
+            <div class="experincecontainer"  v-if="EXPcarrers.length>0" >
+            <div v-for="carrer in EXPcarrers">
+                        <div class="officecontainer mt-4" style="padding: 2%;">
+                          <div class="basicdetails">
+                          <div class="officedetails" style="width: 70%;">
+                            <div>
+                                <img v-bind:src="carrer.companylogo" class="officeicon">
+                            </div>
+                            <div style="margin-top: 2%;font-size: 15px;"> 
+                            <p>
                             <b>
                                 {{carrer.companyname}}
-                                <a v-bind:href="carrer.companyURL" > <i class="fa fa-external-link" style="font-size:20px;color: gray;"></i></a>   
+                                <a v-bind:href="carrer.companyURL" > <i class="fa fa-external-link" style="font-size:15px;color: gray;"></i></a>   
                             </b>
                            </p>
-                           <p>
+                            </div>
+                          </div>
+                          <div class="officeposition">
+                            <div>
+                            <p>
                             <b>
                                 {{carrer.title}}
                             </b>
                            </p>
+                           <p class=""><b>{{carrer.Session}}</b> </p>
+                            </div>
+                            
+                          </div>
+                          </div>
+
+                        <div>
+                        </div>
+                        <div>
+  
                            <p>
                             <b>
                                 Key Resposibility:
@@ -103,14 +120,28 @@
                            </ul>
                         </div>
                         <div>
-                           <p class="yeardetails"><b>{{carrer.Session}}</b> </p>
+                          
                         </div>
                     </div>
+            </div>
+            </div>
+            <div v-else>
+                    <h5 style="text-align: center;color: red;"><b><i>There is no Experience to show</i></b></h5>
+             </div>
+            </div>
+          </div>
+           <!-- <div class="row">
+                <div class="contentheadline mb-3 mt-4">
+                    <span class="badge badge-pill badge-secondary pilltext text-center">{{EXPcapculetitle}}</span>
+                    <h2  class="mt-2">{{EXPShortDesc}}</h2>
+                </div>
+                <div v-if="EXPcarrers.length>0" v-for="carrer in EXPcarrers">
+  
                 </div>
                 <div v-else>
                     <h5 style="text-align: center;color: red;"><b><i>There is no Experience to show</i></b></h5>
                   </div>
-            </div>
+            </div>  -->
         </div>
       </section>
       <!-- Experience Section End -->

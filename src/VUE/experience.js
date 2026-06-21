@@ -6,7 +6,7 @@ const CarrerSnapshot= Vue.createApp({
             capculetitle:"CARRER",
             ShortDesc:"Here is a quick summary of my Carrer:",
             carrers:[
-                {title:"Trainee Engineer .Net Developer ",expernc:"Continue", class:"containertimeline right"},
+                {title:"Full Stack Software Engineer (Sub Assistant Manager)",expernc:"Continue", class:"containertimeline right"},
                 {title:"Software Engineer (Contractual) ",expernc:"8 Months", class:"containertimeline left"},
                 {title:"Software Engineer",expernc:"2 years", class:"containertimeline  right"},
                 {title:"WordPress Developer (Intern)",expernc:"4 months",class:"containertimeline left"}
@@ -22,7 +22,7 @@ const  Experiencedetails= Vue.createApp({
             EXPcapculetitle:"EXPERIENCE",
             EXPShortDesc:"Here is a quick summary of my most recent experiences:",
             EXPcarrers:[
-                {companyname:"PRAN-RFL Group",companyURL:"https://rflbd.com/", companylogo:"src/Images/pran.jpg", title:"Trainee Engineer .Net Developer",Session:"August 2024 - Continue", 
+                {companyname:"PRAN-RFL Group",companyURL:"https://rflbd.com/", companylogo:"src/Images/pran.jpg", title:"Full Stack Software Engineer (Sub Assistant Manager)",Session:"August 2024 - Continue", 
                     KeyResposibility:[
                         "Have used .NET and Oracle server to developed dynamic Web Application.",
                         "Develop software with Oracle Database and ADO.NET Core",
